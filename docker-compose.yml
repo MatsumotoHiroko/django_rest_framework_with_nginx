@@ -1,0 +1,42 @@
+version: '2.1'
+services:
+    nginx:
+        image: nginx:latest
+        container_name: django.nginx
+        ports:
+          - "8000:8000"
+        volumes:
+          - ./nginx/conf:/etc/nginx/conf.d
+          - ./nginx/uwsgi_params:/etc/nginx/uwsgi_params
+          - ./static:/static
+          - ./nginx/log:/var/log/nginx
+        depends_on:
+          - web
+    
+    web:
+        build: ./web
+        command: bash -c "python /code/manage.py migrate && uwsgi --ini /code/test_application/django.ini"
+        volumes:
+          - ./src:/code
+          - ./static:/static
+        expose:
+          - "8001"
+        depends_on:
+            db:
+                condition: service_healthy
+
+    db:
+        image: postgres:9.6
+        restart: unless-stopped
+        ports:
+            - "5432:5432"
+        healthcheck:
+            test: ["CMD-SHELL", "pg_isready -U admin"]
+            interval: 5s
+            timeout: 30s
+            retries: 3
+        environment:
+            LC_ALL: C.UTF-8
+            POSTGRES_USER: admin
+            POSTGRES_PASSWORD: admin
+            POSTGRES_DB: admin

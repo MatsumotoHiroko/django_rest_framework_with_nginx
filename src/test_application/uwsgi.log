@@ -1,0 +1,604 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Feb 19 11:58:24 2019] ***
+compiled with version: 6.3.0 20170516 on 19 February 2019 11:24:24
+os: Linux-4.9.125-linuxkit #1 SMP Fri Sep 7 08:20:28 UTC 2018
+nodename: f86a351ab72b
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.6 (default, Sep  5 2018, 03:40:52)  [GCC 6.3.0 20170516]
+Python main interpreter initialized at 0x55b5ea74f1c0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0x55b5ea74f1c0 pid: 1 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 9, cores: 1)
+Python auto-reloader enabled
+...brutally killing workers...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /code
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (:8001)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from /code/test_application/django.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Feb 19 12:15:05 2019] ***
+compiled with version: 6.3.0 20170516 on 19 February 2019 11:24:24
+os: Linux-4.9.125-linuxkit #1 SMP Fri Sep 7 08:20:28 UTC 2018
+nodename: f86a351ab72b
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.6 (default, Sep  5 2018, 03:40:52)  [GCC 6.3.0 20170516]
+Python main interpreter initialized at 0x557d27755120
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x557d27755120 pid: 1 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 12, cores: 1)
+Python auto-reloader enabled
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Feb 19 12:15:46 2019] ***
+compiled with version: 6.3.0 20170516 on 19 February 2019 11:24:24
+os: Linux-4.9.125-linuxkit #1 SMP Fri Sep 7 08:20:28 UTC 2018
+nodename: 723863ab503a
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.6 (default, Sep  5 2018, 03:40:52)  [GCC 6.3.0 20170516]
+Python main interpreter initialized at 0x5630416a21c0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5630416a21c0 pid: 1 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 10, cores: 1)
+Python auto-reloader enabled
+Not Found: /
+[pid: 10|app: 0|req: 1/1] 192.168.176.1 () {42 vars in 771 bytes} [Tue Feb 19 12:16:07 2019] GET / => generated 3113 bytes in 316 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 10|app: 0|req: 2/2] 192.168.176.1 () {40 vars in 758 bytes} [Tue Feb 19 12:16:08 2019] GET /favicon.ico => generated 3164 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 10|app: 0|req: 3/3] 192.168.176.1 () {42 vars in 787 bytes} [Tue Feb 19 12:16:16 2019] GET /books/ => generated 5092 bytes in 313 msecs (HTTP/1.1 200) 5 headers in 157 bytes (1 switches on core 0)
+[pid: 10|app: 0|req: 4/4] 192.168.176.1 () {44 vars in 833 bytes} [Tue Feb 19 12:16:38 2019] GET /books/ => generated 5092 bytes in 47 msecs (HTTP/1.1 200) 5 headers in 157 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 10|app: 0|req: 5/5] 192.168.176.1 () {40 vars in 758 bytes} [Tue Feb 19 12:16:40 2019] GET /favicon.ico => generated 3164 bytes in 18 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /code
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (:8001)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from /code/test_application/django.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Feb 19 12:17:12 2019] ***
+compiled with version: 6.3.0 20170516 on 19 February 2019 11:24:24
+os: Linux-4.9.125-linuxkit #1 SMP Fri Sep 7 08:20:28 UTC 2018
+nodename: 723863ab503a
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.6 (default, Sep  5 2018, 03:40:52)  [GCC 6.3.0 20170516]
+Python main interpreter initialized at 0x55e94e3d5120
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55e94e3d5120 pid: 1 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 13, cores: 1)
+Python auto-reloader enabled
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Feb 19 12:28:15 2019] ***
+compiled with version: 6.3.0 20170516 on 19 February 2019 12:25:05
+os: Linux-4.9.125-linuxkit #1 SMP Fri Sep 7 08:20:28 UTC 2018
+nodename: f7a76478cdb2
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.6 (default, Sep  5 2018, 03:40:52)  [GCC 6.3.0 20170516]
+Python main interpreter initialized at 0x56091707d1c0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x56091707d1c0 pid: 1 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 9, cores: 1)
+Python auto-reloader enabled
+[pid: 9|app: 0|req: 1/1] 192.168.192.1 () {42 vars in 787 bytes} [Tue Feb 19 12:29:10 2019] GET /books/ => generated 5092 bytes in 1270 msecs (HTTP/1.1 200) 5 headers in 157 bytes (1 switches on core 0)
+[pid: 9|app: 0|req: 2/2] 192.168.192.1 () {42 vars in 787 bytes} [Tue Feb 19 12:29:57 2019] GET /books/ => generated 5092 bytes in 230 msecs (HTTP/1.1 200) 5 headers in 157 bytes (1 switches on core 0)
+[pid: 9|app: 0|req: 3/3] 192.168.192.1 () {44 vars in 818 bytes} [Tue Feb 19 12:30:03 2019] GET /books/ => generated 5092 bytes in 177 msecs (HTTP/1.1 200) 5 headers in 157 bytes (1 switches on core 0)
+[pid: 9|app: 0|req: 4/4] 192.168.192.1 () {44 vars in 818 bytes} [Tue Feb 19 12:30:04 2019] GET /books/ => generated 5092 bytes in 56 msecs (HTTP/1.1 200) 5 headers in 157 bytes (1 switches on core 0)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /code
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (:8001)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from /code/test_application/django.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Feb 19 12:38:57 2019] ***
+compiled with version: 6.3.0 20170516 on 19 February 2019 12:25:05
+os: Linux-4.9.125-linuxkit #1 SMP Fri Sep 7 08:20:28 UTC 2018
+nodename: f7a76478cdb2
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.6 (default, Sep  5 2018, 03:40:52)  [GCC 6.3.0 20170516]
+Python main interpreter initialized at 0x55ef4e7fd120
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x55ef4e7fd120 pid: 1 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 12, cores: 1)
+Python auto-reloader enabled
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Feb 19 12:39:56 2019] ***
+compiled with version: 6.3.0 20170516 on 19 February 2019 12:25:05
+os: Linux-4.9.125-linuxkit #1 SMP Fri Sep 7 08:20:28 UTC 2018
+nodename: c6ede35fcb66
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.6 (default, Sep  5 2018, 03:40:52)  [GCC 6.3.0 20170516]
+Python main interpreter initialized at 0x5633f28211c0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5633f28211c0 pid: 1 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 9, cores: 1)
+Python auto-reloader enabled
+[pid: 9|app: 0|req: 1/1] 192.168.208.1 () {42 vars in 787 bytes} [Tue Feb 19 12:40:22 2019] GET /books/ => generated 5092 bytes in 729 msecs (HTTP/1.1 200) 5 headers in 157 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 9|app: 0|req: 2/2] 192.168.208.1 () {40 vars in 758 bytes} [Tue Feb 19 12:40:23 2019] GET /favicon.ico => generated 3164 bytes in 12 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 9|app: 0|req: 3/3] 192.168.208.1 () {44 vars in 818 bytes} [Tue Feb 19 12:40:44 2019] GET /books/ => generated 5092 bytes in 55 msecs (HTTP/1.1 200) 5 headers in 157 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 9|app: 0|req: 4/4] 192.168.208.1 () {42 vars in 789 bytes} [Tue Feb 19 12:40:45 2019] GET /favicon.ico => generated 3164 bytes in 18 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /books/1/
+[pid: 9|app: 0|req: 5/5] 192.168.208.1 () {42 vars in 791 bytes} [Tue Feb 19 12:40:48 2019] GET /books/1/ => generated 5305 bytes in 44 msecs (HTTP/1.1 404) 5 headers in 178 bytes (1 switches on core 0)
+Not Found: /books/1/
+[pid: 9|app: 0|req: 6/6] 192.168.208.1 () {44 vars in 822 bytes} [Tue Feb 19 12:40:51 2019] GET /books/1/ => generated 5305 bytes in 66 msecs (HTTP/1.1 404) 5 headers in 178 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 9|app: 0|req: 7/7] 192.168.208.1 () {42 vars in 789 bytes} [Tue Feb 19 12:40:52 2019] GET /favicon.ico => generated 3164 bytes in 11 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[uwsgi-python-reloader] module/file ./test_application/settings.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 9)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /code
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (:8001)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from /code/test_application/django.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Feb 19 12:48:41 2019] ***
+compiled with version: 6.3.0 20170516 on 19 February 2019 12:25:05
+os: Linux-4.9.125-linuxkit #1 SMP Fri Sep 7 08:20:28 UTC 2018
+nodename: c6ede35fcb66
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.6 (default, Sep  5 2018, 03:40:52)  [GCC 6.3.0 20170516]
+Python main interpreter initialized at 0x55ae276b7120
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55ae276b7120 pid: 1 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 12, cores: 1)
+Python auto-reloader enabled
+[uwsgi-python-reloader] module/file ./test_application/settings.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 12)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /code
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (:8001)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from /code/test_application/django.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Feb 19 12:51:57 2019] ***
+compiled with version: 6.3.0 20170516 on 19 February 2019 12:25:05
+os: Linux-4.9.125-linuxkit #1 SMP Fri Sep 7 08:20:28 UTC 2018
+nodename: c6ede35fcb66
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.6 (default, Sep  5 2018, 03:40:52)  [GCC 6.3.0 20170516]
+Python main interpreter initialized at 0x55ad00315120
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55ad00315120 pid: 1 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 15, cores: 1)
+Python auto-reloader enabled
+[uwsgi-python-reloader] module/file ./test_application/settings.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 15)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /code
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (:8001)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from /code/test_application/django.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Feb 19 12:53:41 2019] ***
+compiled with version: 6.3.0 20170516 on 19 February 2019 12:25:05
+os: Linux-4.9.125-linuxkit #1 SMP Fri Sep 7 08:20:28 UTC 2018
+nodename: c6ede35fcb66
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.6 (default, Sep  5 2018, 03:40:52)  [GCC 6.3.0 20170516]
+Python main interpreter initialized at 0x5628e5aa9120
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5628e5aa9120 pid: 1 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 18, cores: 1)
+Python auto-reloader enabled
+...brutally killing workers...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /code
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (:8001)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from /code/test_application/django.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Feb 19 12:54:20 2019] ***
+compiled with version: 6.3.0 20170516 on 19 February 2019 12:25:05
+os: Linux-4.9.125-linuxkit #1 SMP Fri Sep 7 08:20:28 UTC 2018
+nodename: c6ede35fcb66
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.6 (default, Sep  5 2018, 03:40:52)  [GCC 6.3.0 20170516]
+Python main interpreter initialized at 0x55bc174e9120
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x55bc174e9120 pid: 1 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 21, cores: 1)
+Python auto-reloader enabled
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Feb 19 12:55:41 2019] ***
+compiled with version: 6.3.0 20170516 on 19 February 2019 12:25:05
+os: Linux-4.9.125-linuxkit #1 SMP Fri Sep 7 08:20:28 UTC 2018
+nodename: ddb90bd62bd5
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.6 (default, Sep  5 2018, 03:40:52)  [GCC 6.3.0 20170516]
+Python main interpreter initialized at 0x55d5d91611c0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x55d5d91611c0 pid: 1 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 12, cores: 1)
+Python auto-reloader enabled
+Not Found: /books/1/
+[pid: 12|app: 0|req: 1/1] 192.168.224.1 () {42 vars in 791 bytes} [Tue Feb 19 12:57:39 2019] GET /books/1/ => generated 5305 bytes in 1027 msecs (HTTP/1.1 404) 5 headers in 178 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 12|app: 0|req: 2/2] 192.168.224.1 () {40 vars in 758 bytes} [Tue Feb 19 12:57:41 2019] GET /favicon.ico => generated 3164 bytes in 19 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Unauthorized: /books/
+[pid: 12|app: 0|req: 3/3] 192.168.224.1 () {42 vars in 598 bytes} [Tue Feb 19 12:59:11 2019] POST /books/ => generated 27 bytes in 33 msecs (HTTP/1.1 401) 6 headers in 182 bytes (1 switches on core 0)
+Not Found: /login
+[pid: 12|app: 0|req: 4/4] 192.168.224.1 () {40 vars in 524 bytes} [Tue Feb 19 12:59:26 2019] POST /login => generated 31 bytes in 213 msecs (HTTP/1.1 404) 5 headers in 143 bytes (1 switches on core 0)
+[pid: 12|app: 0|req: 5/5] 192.168.224.1 () {40 vars in 524 bytes} [Tue Feb 19 13:01:45 2019] POST /login => generated 52 bytes in 227 msecs (HTTP/1.1 200) 5 headers in 136 bytes (1 switches on core 0)
+[pid: 12|app: 0|req: 6/6] 192.168.224.1 () {42 vars in 598 bytes} [Tue Feb 19 13:02:29 2019] POST /books/ => generated 66 bytes in 23 msecs (HTTP/1.1 201) 5 headers in 152 bytes (1 switches on core 0)
+[pid: 12|app: 0|req: 7/7] 192.168.224.1 () {42 vars in 616 bytes} [Tue Feb 19 13:02:34 2019] POST /books/1/rating/ => generated 65 bytes in 26 msecs (HTTP/1.1 201) 5 headers in 152 bytes (1 switches on core 0)
+[pid: 12|app: 0|req: 8/8] 192.168.224.1 () {40 vars in 548 bytes} [Tue Feb 19 13:02:38 2019] POST /books/1/rating/ => generated 65 bytes in 21 msecs (HTTP/1.1 201) 5 headers in 152 bytes (1 switches on core 0)
+Unauthorized: /books/1/rating/1/
+[pid: 12|app: 0|req: 9/9] 192.168.224.1 () {40 vars in 552 bytes} [Tue Feb 19 13:02:40 2019] POST /books/1/rating/1/ => generated 58 bytes in 3 msecs (HTTP/1.1 401) 6 headers in 196 bytes (1 switches on core 0)
+[pid: 12|app: 0|req: 10/10] 192.168.224.1 () {44 vars in 822 bytes} [Tue Feb 19 13:02:43 2019] GET /books/1/ => generated 5389 bytes in 400 msecs (HTTP/1.1 200) 5 headers in 171 bytes (1 switches on core 0)
+Unauthorized: /books/1/rating/
+[pid: 12|app: 0|req: 11/11] 192.168.224.1 () {42 vars in 805 bytes} [Tue Feb 19 13:02:51 2019] GET /books/1/rating/ => generated 8876 bytes in 132 msecs (HTTP/1.1 401) 7 headers in 368 bytes (1 switches on core 0)
+[pid: 12|app: 0|req: 12/12] 192.168.224.1 () {48 vars in 1081 bytes} [Tue Feb 19 13:02:58 2019] POST /books/1/rating/ => generated 8863 bytes in 87 msecs (HTTP/1.1 201) 6 headers in 338 bytes (1 switches on core 0)
+[pid: 12|app: 0|req: 13/13] 192.168.224.1 () {42 vars in 598 bytes} [Tue Feb 19 13:03:28 2019] POST /books/ => generated 66 bytes in 39 msecs (HTTP/1.1 201) 5 headers in 152 bytes (1 switches on core 0)
+[pid: 12|app: 0|req: 14/14] 192.168.224.1 () {40 vars in 548 bytes} [Tue Feb 19 13:03:35 2019] POST /books/2/rating/ => generated 65 bytes in 21 msecs (HTTP/1.1 201) 5 headers in 152 bytes (1 switches on core 0)
+Unauthorized: /books/1/rating/
+[pid: 12|app: 0|req: 15/15] 192.168.224.1 () {42 vars in 805 bytes} [Tue Feb 19 13:03:38 2019] GET /books/1/rating/ => generated 8964 bytes in 75 msecs (HTTP/1.1 401) 7 headers in 368 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 12|app: 0|req: 16/16] 192.168.224.1 () {40 vars in 758 bytes} [Tue Feb 19 13:03:39 2019] GET /favicon.ico => generated 3164 bytes in 45 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 12|app: 0|req: 17/17] 192.168.224.1 () {42 vars in 783 bytes} [Tue Feb 19 13:03:55 2019] GET /admin/ => generated 0 bytes in 108 msecs (HTTP/1.1 302) 7 headers in 336 bytes (1 switches on core 0)
+[pid: 12|app: 0|req: 18/18] 192.168.224.1 () {42 vars in 776 bytes} [Tue Feb 19 13:03:55 2019] GET /admin/login/?next=/admin/ => generated 1819 bytes in 126 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 12|app: 0|req: 19/19] 192.168.224.1 () {40 vars in 714 bytes} [Tue Feb 19 13:03:57 2019] GET /favicon.ico => generated 3164 bytes in 17 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 12|app: 0|req: 20/20] 192.168.224.1 () {48 vars in 956 bytes} [Tue Feb 19 13:04:01 2019] POST /admin/login/?next=/admin/ => generated 0 bytes in 526 msecs (HTTP/1.1 302) 9 headers in 559 bytes (1 switches on core 0)
+[pid: 12|app: 0|req: 21/21] 192.168.224.1 () {44 vars in 846 bytes} [Tue Feb 19 13:04:01 2019] GET /admin/ => generated 4809 bytes in 75 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 12|app: 0|req: 22/22] 192.168.224.1 () {44 vars in 845 bytes} [Tue Feb 19 13:04:06 2019] GET /admin/app/rate/ => generated 4980 bytes in 153 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 0)
+[pid: 12|app: 0|req: 23/23] 192.168.224.1 () {42 vars in 744 bytes} [Tue Feb 19 13:04:07 2019] GET /admin/jsi18n/ => generated 3185 bytes in 79 msecs (HTTP/1.1 200) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 12|app: 0|req: 24/24] 192.168.224.1 () {44 vars in 872 bytes} [Tue Feb 19 13:04:10 2019] GET /admin/app/rate/4/change/ => generated 5313 bytes in 261 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 0)
+[pid: 12|app: 0|req: 25/25] 192.168.224.1 () {42 vars in 753 bytes} [Tue Feb 19 13:04:11 2019] GET /admin/jsi18n/ => generated 3185 bytes in 144 msecs (HTTP/1.1 200) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 12|app: 0|req: 26/26] 192.168.224.1 () {44 vars in 845 bytes} [Tue Feb 19 13:04:16 2019] GET /admin/app/rate/ => generated 4980 bytes in 126 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 0)
+[pid: 12|app: 0|req: 27/27] 192.168.224.1 () {44 vars in 872 bytes} [Tue Feb 19 13:04:19 2019] GET /admin/app/rate/3/change/ => generated 5313 bytes in 102 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 0)
+[pid: 12|app: 0|req: 28/28] 192.168.224.1 () {42 vars in 753 bytes} [Tue Feb 19 13:04:19 2019] GET /admin/jsi18n/ => generated 3185 bytes in 91 msecs (HTTP/1.1 200) 4 headers in 132 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 12|app: 0|req: 29/29] 192.168.224.1 () {40 vars in 758 bytes} [Tue Feb 19 13:04:20 2019] GET /favicon.ico => generated 3164 bytes in 15 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 12|app: 0|req: 30/30] 192.168.224.1 () {44 vars in 845 bytes} [Tue Feb 19 13:04:22 2019] GET /admin/app/rate/ => generated 4980 bytes in 102 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 0)
+[pid: 12|app: 0|req: 31/31] 192.168.224.1 () {36 vars in 431 bytes} [Tue Feb 19 13:20:04 2019] GET /books/ => generated 135 bytes in 156 msecs (HTTP/1.1 200) 5 headers in 148 bytes (1 switches on core 0)
+[pid: 12|app: 0|req: 32/32] 192.168.224.1 () {36 vars in 435 bytes} [Tue Feb 19 13:31:19 2019] GET /books/1/ => generated 66 bytes in 265 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Feb 22 09:43:03 2019] ***
+compiled with version: 6.3.0 20170516 on 19 February 2019 12:25:05
+os: Linux-4.9.125-linuxkit #1 SMP Fri Sep 7 08:20:28 UTC 2018
+nodename: 28af587ef788
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.6 (default, Sep  5 2018, 03:40:52)  [GCC 6.3.0 20170516]
+Python main interpreter initialized at 0x557b55a511c0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0x557b55a511c0 pid: 1 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 9, cores: 1)
+Python auto-reloader enabled
+Not Found: /
+[pid: 9|app: 0|req: 1/1] 172.22.0.1 () {42 vars in 768 bytes} [Fri Feb 22 09:43:31 2019] GET / => generated 3093 bytes in 350 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 9|app: 0|req: 2/2] 172.22.0.1 () {42 vars in 778 bytes} [Fri Feb 22 09:43:36 2019] GET /books => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 0)
+[pid: 9|app: 0|req: 3/3] 172.22.0.1 () {42 vars in 780 bytes} [Fri Feb 22 09:43:36 2019] GET /books/ => generated 5066 bytes in 127 msecs (HTTP/1.1 200) 5 headers in 157 bytes (1 switches on core 0)
+[pid: 9|app: 0|req: 4/4] 172.22.0.1 () {40 vars in 521 bytes} [Fri Feb 22 09:44:40 2019] POST /login => generated 52 bytes in 201 msecs (HTTP/1.1 200) 5 headers in 136 bytes (1 switches on core 0)
+[pid: 9|app: 0|req: 5/5] 172.22.0.1 () {42 vars in 591 bytes} [Fri Feb 22 09:44:53 2019] POST /books/ => generated 66 bytes in 27 msecs (HTTP/1.1 201) 5 headers in 152 bytes (1 switches on core 0)
+[pid: 9|app: 0|req: 6/6] 172.22.0.1 () {42 vars in 609 bytes} [Fri Feb 22 09:45:00 2019] POST /books/1/rating/ => generated 63 bytes in 21 msecs (HTTP/1.1 201) 5 headers in 152 bytes (1 switches on core 0)
+[pid: 9|app: 0|req: 7/7] 172.22.0.1 () {42 vars in 780 bytes} [Fri Feb 22 09:45:02 2019] GET /books/ => generated 5223 bytes in 43 msecs (HTTP/1.1 200) 5 headers in 157 bytes (1 switches on core 0)
